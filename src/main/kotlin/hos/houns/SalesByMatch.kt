@@ -1,9 +1,11 @@
+package hos.houns
+
 import java.util.*
 import kotlin.collections.*
 import kotlin.io.*
 import kotlin.text.*
 
-// Complete the sockMerchant function below.
+// Complete the main.hos.houns.sockMerchant function below.
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
     var pairs =0
     val map = HashMap<Int,Int>()

@@ -1,11 +1,10 @@
-import java.io.*
-import java.math.*
-import java.text.*
+package hos.houns
+
 import java.util.*
 import java.util.regex.*
 
 /*
- * Complete the timeConversion function below.
+ * Complete the main.hos.houns.timeConversion function below.
  */
 fun timeConversion(s: String): String {
     val string =s.toLowerCase()

@@ -1,7 +1,9 @@
+package hos.houns
+
 import kotlin.io.*
 import kotlin.text.*
 
-// Complete the dayOfProgrammer function below.
+// Complete the main.hos.houns.dayOfProgrammer function below.
 fun dayOfProgrammer(year: Int): String {
    val sumSevenMontths = 31  + 31 + 30 + 31 + 30 + 31 + 31
    val isLeapYear=  when {

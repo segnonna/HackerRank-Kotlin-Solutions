@@ -1,24 +1,12 @@
-import java.io.*
-import java.math.*
-import java.security.*
-import java.text.*
-import java.util.*
-import java.util.concurrent.*
-import java.util.function.*
-import java.util.regex.*
-import java.util.stream.*
+package hos.houns
+
 import kotlin.collections.*
-import kotlin.comparisons.*
 import kotlin.io.*
-import kotlin.jvm.*
-import kotlin.jvm.functions.*
-import kotlin.jvm.internal.*
 import kotlin.ranges.*
-import kotlin.sequences.*
 import kotlin.text.*
 
 /*
- * Complete the 'gradingStudents' function below.
+ * Complete the 'main.hos.houns.gradingStudents' function below.
  *
  * The function is expected to return an INTEGER_ARRAY.
  * The function accepts INTEGER_ARRAY grades as parameter.
@@ -27,7 +15,7 @@ import kotlin.text.*
 fun gradingStudents(grades: Array<Int>): Array<Int> {
     val roundedGrade = mutableListOf<Int>()
     for (i in grades.indices){
-        roundedGrade.add( roundedGrade(grades[i]))
+        roundedGrade.add(roundedGrade(grades[i]))
     }
     return roundedGrade.toTypedArray()
 }
@@ -37,14 +25,14 @@ fun nextMultipleof5(number:Int):Int{
 }
 
 fun differenceBetweenGradleAndNextMultiple(grade:Int): Int {
-    return nextMultipleof5(grade)-grade
+    return nextMultipleof5(grade) -grade
 }
 
 fun roundedGrade(grade: Int): Int {
     return if (grade < 38){
         grade
     }else{
-        val  diff =differenceBetweenGradleAndNextMultiple(grade)
+        val  diff = differenceBetweenGradleAndNextMultiple(grade)
         when{
             diff <3 ->{
                 nextMultipleof5(grade)

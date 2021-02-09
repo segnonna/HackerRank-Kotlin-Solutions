@@ -1,23 +1,11 @@
-import java.io.*
-import java.math.*
-import java.security.*
-import java.text.*
+package hos.houns
+
 import java.util.*
-import java.util.concurrent.*
-import java.util.function.*
-import java.util.regex.*
-import java.util.stream.*
 import kotlin.collections.*
-import kotlin.comparisons.*
 import kotlin.io.*
-import kotlin.jvm.*
-import kotlin.jvm.functions.*
-import kotlin.jvm.internal.*
-import kotlin.ranges.*
-import kotlin.sequences.*
 import kotlin.text.*
 
-// Complete the countApplesAndOranges function below.
+// Complete the hos.houns.countApplesAndOranges function below.
 fun countApplesAndOranges(homeStartPosition: Int, homeEndPosition: Int, locationAppleTree: Int, locationOrangeTree: Int, apples: Array<Int>, oranges: Array<Int>): Unit {
     var numberOfApples =0
     var numberOfOranges =0
@@ -37,7 +25,7 @@ fun countApplesAndOranges(homeStartPosition: Int, homeEndPosition: Int, location
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val scan = Scanner(System.`in`)
 
     val st = scan.nextLine().split(" ")
