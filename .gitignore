@@ -1,6 +1,7 @@
-/.gradle
-/.idea
-/gradle
-/gradlew
-/gradlew.bat
-/HackerRankSolution.iml
+.gradle/
+.idea/
+gradle/
+gradlew
+gradlew.bat
+HackerRankSolution.iml
+.DS_Store
