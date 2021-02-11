@@ -1,2 +1,6 @@
-.idea/
-out/
+/.gradle/
+/.idea/
+/gradle/
+/gradlew
+/gradlew.bat
+/HackerRankSolution.iml
